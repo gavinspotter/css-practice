@@ -120,3 +120,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
