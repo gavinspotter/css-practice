@@ -125,6 +125,7 @@ body {
   display: inline-block;
   border-radius: 100px;
   transition: all 0.2s;
+  position: relative;
 }
 
 .btn:hover {
@@ -151,6 +152,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 .btn-white::after {
