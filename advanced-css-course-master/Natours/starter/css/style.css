@@ -168,6 +168,15 @@ body {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
 
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  background-color: orangered;
+  height: 50rem;
+  transition: all .8s; }
+  .card:hover {
+    transform: rotateY(180deg); }
+
 .composition {
   position: relative; }
   .composition__photo {
