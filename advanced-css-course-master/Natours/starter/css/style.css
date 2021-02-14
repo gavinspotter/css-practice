@@ -384,6 +384,10 @@ body {
   background-size: 220%;
   transition: all .4s; }
 
+.navigation__link span {
+  margin-right: 1.5rem;
+  display: inline-block; }
+
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   color: #55c57a;
