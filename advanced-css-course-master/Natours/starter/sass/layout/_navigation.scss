@@ -24,7 +24,7 @@
         position: fixed;
         top: 6.5rem;
         right: 6.5rem;
-        background-image: radial-gradient($color-primary-light, $color-primary-dark);
+        background-image: radial-gradient(red, blue);
         z-index: 1000;
         transition: transform .8s;
 
@@ -131,6 +131,20 @@
 
     &__button:hover &__icon::after {
         top:1rem
+    }
+
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+    }
+
+    &__checkbox:checked + &__button &__icon::before {
+        top:0;
+        transform: rotate(135deg);
+    }
+
+    &__checkbox:checked + &__button &__icon::after {
+        top:0;
+        transform: rotate(-135deg);
     }
 
 }
